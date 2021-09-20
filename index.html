@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SO INTRESTING</title>
+</head>
+<body bgcolor="grey">
+<h1 align="center" name="top">Задание №1</h1>
+<ol>
+<li><a href="http//example.com/">Абсолютная гиперссылка на главную страницу сайта example.com</a><p></li>
+<li><a href="https://example.com/">Абсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a><p></li>
+<li><a href="ftp://mylocalfile/fileftp.txt">Ссылка на файл на сервере ftp без авторизации</a><p></li>
+<li><a href="ftp://user:Daniel223@kubsu.ru/mylocalfile/fileftp.txt">Сылка на файл на сервере ftp c авторизацией</a><p></li>
+<li><a href="https://soundcloud.com/user-underthesurface/smells-like-teen-spirit-slowed?in_system_playlist=personalized-tracks%3A%3Auser-704753769%3A817765912">Ссылка на фрагмент страницы некоторого сайта</a></li>
+<li><a href="#form">Ссылка на фрагмент текущей страницы;</a></li>
+<li><a href="https://www.asos.com/ru/puma/chernaya-kepka-s-metallicheskim-logotipom-puma/prd/14542112?clr=chernyj-tsvet&colourwayid=16624332&cid=28031">Ссылка с двумя параментрами url</a></li>
+<li><a href="#top"title="Блок с гиперссылками">Ссылка на блок с гиперссылками</a></li>
+<li><a title="">Ссылка без href</a></li>
+<li><a href="##">Ссылка с пустым href</a></li>
+<li><a href="https://mail.ru/" rel="nofollow">Ссылка по которой запрещён переход поисковикам</a></li>
+<li><a href="https://kubsu.ru/"><noindex>Ссылка запрёщенная для индексации поисковиками</noindex></a></li>
+<li><p>Контекстная <a href="https://www.instagram.com/">ссылка</a> в тексте  абзаца.</p></li>
+<p>
+<li><p>Cсылка изображение</p><a href="https://kubsu.ru/"><img src="https://phonoteka.org/uploads/posts/2021-04/1618541522_13-phonoteka_org-p-razmitie-kartinki-dlya-fona-13.jpg" width="900" height="900"  /></a></li>
+<h2>Ссылки из прямоугольных и круглых областей картинки<p><p>(Подсказка):наведите курсор на предметы</p><img src="https://im0-tub-ru.yandex.net/i?id=cb6b44dc7196b3d72989592680625e2d-l&n=13" / width="900" height="900" usemap="#map" alt="Навигация"></p></h2>
+<map name="map">
+
+<area shape="circle" coords="828,344,40" href="https://www.asos.com/ru/converse/zelenye-zamshevye-krossovki-converse-chuck-taylor-all-star/prd/23589945?clr=zelenyj-tsvet&colourwayid=60495886&cid=2084" alt="ссылка">
+<area shape="rect" coords="690,569,757,609" href="https://avatars.mds.yandex.net/get-zen_doc/162989/pub_5f29e3f21b884e440dc0ed64_5f29e50da087395d9ee9e89c/scale_1200">
+</map>
+</p>
+<li><a href="file number #2.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+<li><a href="about/file number#4.html">Относительная ссылка на страницу в каталоге about</a></li>
+<li><a href="../Каталог на 1 уровень выше/file number #5.html">Относительная ссылка на страницу в каталоге на уровень выше текущего</a></li>
+<li><a href="../../Каталог на 2 уровня выше/file number #6.html">Относительная ссылка на страницу в каталоге на 2 уровня выше</a></li>
+<li><a href="file number #1.html">Сокращенную на главную страницу</a></li>
+<li><a href="file number #2.html">Сокращенную ссылку на внутреннюю</a></li>
+</ol>
+<h1 id="main"><a name="form">Заполнение ваших данных</a></h1>
+<form action="/" method="post">
+Поле для ввода имени:
+<input type="text" placeholder="Введите имя" name="name" required>
+<br>
+Поле для ввода email:
+<input type="email" name="email" placeholder="Ваш email">
+<br>
+Укажите дату вашего рождения:
+<input type="date" name="Birthday" value="2020-12-12">
+<br>
+Укажите ваш пол:
+<label>
+<input type="radio" name="sex" value="male">
+Мужчина
+</label>
+<label>
+<input type="radio" name="sex" value="female">
+Женщина
+</label>
+<label>
+<input type="radio" name="sex" value="notalk">
+Не скажу
+</label>
+<br>
+</form>
+<form action="/" method="post">
+Колличество конечностей
+<input type="radio" name="kon" value="1"> 1
+<input type="radio" name="kon" value="2"> 2
+<input type="radio" name="kon" value="3"> 3
+<input type="radio" name="kon" value="4"> 4
+<input type="radio" name="kon" value="5"> отсутствуют
+</form>
+<form action="/" method="post">
+Расскажите о себе:
+<textarea name="bio" placeholder="..."></textarea>
+</form>
+<br>
+<form action="/" method="post">
+Какую сверхспособность вы хотели бы получить
+<select name="power" multiple="multiple">
+<option value="1">Бессмертие</option>
+<option value="2">Прохождение сквозь стены</option>
+<option value="3">Левитация</option>
+<option value="4">Переход по времени</option>
+<option value="5">Быстрая регенерация</option>
+<option value="6">Сверхчеловескую скорость</option>
+<option value="7">Сверхчеловеческая сила</option>
+</select>
+</form>
+<br>
+
+<form action="/" method="post">
+<label>
+<input type="checkbox" name="check-1">
+С контрактом был ознакомлен(а)
+</label>
+<br>
+<label>
+<input type="submit" value="Отправить">
+</label>
+</form>
+</body>
+</html>
